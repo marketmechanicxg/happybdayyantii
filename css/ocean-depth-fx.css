@@ -59,10 +59,10 @@
   mix-blend-mode: screen;
   opacity: 0.32;
   background-image:
-    radial-gradient(circle at 18% 22%, rgba(240, 143, 227, 0.55) 0%, transparent 38%),
+    radial-gradient(circle at 18% 22%, rgba(143, 227, 240, 0.55) 0%, transparent 38%),
     radial-gradient(circle at 62% 12%, rgba(255, 215, 106, 0.32) 0%, transparent 32%),
-    radial-gradient(circle at 40% 58%, rgba(240, 143, 227, 0.4) 0%, transparent 34%),
-    radial-gradient(circle at 82% 64%, rgba(224, 62, 198, 0.4) 0%, transparent 30%),
+    radial-gradient(circle at 40% 58%, rgba(143, 227, 240, 0.4) 0%, transparent 34%),
+    radial-gradient(circle at 82% 64%, rgba(62, 198, 224, 0.4) 0%, transparent 30%),
     radial-gradient(circle at 10% 86%, rgba(255, 215, 106, 0.22) 0%, transparent 30%);
   background-size: 140% 140%;
   background-repeat: no-repeat;
@@ -99,14 +99,14 @@ html.perf-high .ocean-backdrop__waves {
 .ocean-fog--1 {
   width: 60vw; height: 30vw; min-width: 480px; min-height: 240px;
   top: 18%; left: -10%;
-  background: radial-gradient(ellipse, rgba(255, 244, 249, 0.07), transparent 75%);
+  background: radial-gradient(ellipse, rgba(244, 249, 255, 0.07), transparent 75%);
   animation: fogDrift1 38s ease-in-out infinite;
 }
 
 .ocean-fog--2 {
   width: 55vw; height: 26vw; min-width: 420px; min-height: 200px;
   bottom: 8%; right: -8%;
-  background: radial-gradient(ellipse, rgba(240, 143, 227, 0.06), transparent 75%);
+  background: radial-gradient(ellipse, rgba(143, 227, 240, 0.06), transparent 75%);
   animation: fogDrift2 46s ease-in-out infinite;
 }
 

@@ -37,7 +37,7 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: rgba(224,62,198,0.1);
+  background: rgba(62,198,224,0.1);
   border: 1px solid var(--c-panel-border);
   display: flex;
   align-items: center;

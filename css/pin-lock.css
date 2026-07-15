@@ -12,7 +12,7 @@
   justify-content: center;
   padding: var(--sp-4);
   background:
-    radial-gradient(ellipse 70% 55% at 50% 8%, rgba(224, 62, 198, 0.16), transparent 60%),
+    radial-gradient(ellipse 70% 55% at 50% 8%, rgba(62, 198, 224, 0.16), transparent 60%),
     radial-gradient(ellipse 60% 50% at 85% 90%, rgba(255, 215, 106, 0.08), transparent 65%),
     linear-gradient(180deg, var(--c-surface) 0%, var(--c-mid) 45%, var(--c-deep) 75%, var(--c-abyss) 100%);
   overflow: hidden;
@@ -43,7 +43,7 @@
 .pin-lock__glow--1 {
   width: 46vw; height: 46vw; max-width: 520px; max-height: 520px;
   top: -10%; left: -8%;
-  background: radial-gradient(circle, rgba(224, 62, 198, 0.3), transparent 70%);
+  background: radial-gradient(circle, rgba(62, 198, 224, 0.3), transparent 70%);
   animation: pinGlowDrift 18s var(--ease-in-out) infinite;
 }
 
@@ -66,8 +66,8 @@
   width: var(--sz, 6px);
   height: var(--sz, 6px);
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, rgba(255,255,255,0.85), rgba(240,143,227,0.25) 70%, transparent 100%);
-  box-shadow: 0 0 6px rgba(240, 143, 227, 0.4);
+  background: radial-gradient(circle at 35% 30%, rgba(255,255,255,0.85), rgba(143,227,240,0.25) 70%, transparent 100%);
+  box-shadow: 0 0 6px rgba(143, 227, 240, 0.4);
   animation: pinBubbleRise var(--sp, 10s) linear infinite;
   animation-delay: var(--dl, 0s);
   opacity: 0;
@@ -113,9 +113,9 @@
   align-items: center;
   justify-content: center;
   color: var(--c-bio-cyan);
-  background: rgba(224, 62, 198, 0.1);
+  background: rgba(62, 198, 224, 0.1);
   border: 1px solid var(--c-panel-border);
-  filter: drop-shadow(0 0 18px rgba(224, 62, 198, 0.4));
+  filter: drop-shadow(0 0 18px rgba(62, 198, 224, 0.4));
   margin-bottom: var(--sp-3);
   animation: pinMarkFloat 3.4s var(--ease-in-out) infinite;
 }
@@ -166,7 +166,7 @@
   width: clamp(40px, 11vw, 52px);
   height: clamp(46px, 12.5vw, 58px);
   border-radius: var(--radius-sm);
-  background: rgba(255, 244, 249, 0.04);
+  background: rgba(244, 249, 255, 0.04);
   border: 1.5px solid var(--c-line-strong);
   display: flex;
   align-items: center;
@@ -179,7 +179,7 @@
   height: 10px;
   border-radius: 50%;
   background: var(--c-bio-cyan);
-  box-shadow: 0 0 10px rgba(224, 62, 198, 0.7);
+  box-shadow: 0 0 10px rgba(62, 198, 224, 0.7);
   transform: scale(0);
   transition: transform 0.25s var(--ease-out);
 }
@@ -188,8 +188,8 @@
 
 .pin-digit.is-active {
   border-color: var(--c-panel-border-hover);
-  box-shadow: 0 0 0 3px rgba(224, 62, 198, 0.14), var(--shadow-glow-cyan);
-  background: rgba(224, 62, 198, 0.06);
+  box-shadow: 0 0 0 3px rgba(62, 198, 224, 0.14), var(--shadow-glow-cyan);
+  background: rgba(62, 198, 224, 0.06);
 }
 
 .pin-lock__hidden-input {
@@ -236,9 +236,9 @@
   box-shadow: 0 0 10px rgba(255, 138, 122, 0.7);
 }
 
-/* Success state — soft pink/gold glow, then the screen fades via .is-unlocked */
+/* Success state — soft cyan/gold glow, then the screen fades via .is-unlocked */
 .pin-lock__card.is-success {
-  border-color: rgba(240, 143, 227, 0.6);
+  border-color: rgba(143, 227, 240, 0.6);
   box-shadow: var(--shadow-panel), 0 0 60px rgba(255, 215, 106, 0.35), var(--shadow-glow-cyan-lg);
   animation: pinSuccessPulse 0.9s var(--ease-soft);
 }
@@ -266,7 +266,7 @@
   width: 100%;
   padding: 0.85rem 1.6rem;
   border-radius: var(--radius-pill);
-  background: linear-gradient(135deg, var(--c-bio-cyan), #c02a9f);
+  background: linear-gradient(135deg, var(--c-bio-cyan), #2a9fc0);
   color: var(--c-abyss);
   font-weight: 600;
   font-size: 0.95rem;

@@ -14,13 +14,13 @@
    1. PIN MASUK
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    PIN 4–6 angka yang harus diketik tamu untuk membuka website.  */
-const WEBSITE_PIN = "1111";              // ← GANTI PIN
+const WEBSITE_PIN = "2020";              // ← GANTI PIN
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    2. NAMA PENERIMA
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    Nama yang muncul di halaman utama (hero).                      */
-const RECIPIENT_NAME = "Yantii";           // ← GANTI NAMA
+const RECIPIENT_NAME = "Ariff";           // ← GANTI NAMA
 
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -31,8 +31,8 @@ const RECIPIENT_NAME = "Yantii";           // ← GANTI NAMA
    Lalu ganti judul dan nama artis di bawah ini.                  */
 const MUSIC_TRACKS = [
   {
-    title:  "Bunga Abadi",             // ← GANTI JUDUL LAGU
-    artist: "Rio Clappy",                   // ← GANTI NAMA ARTIS
+    title:  "Location Unknown",             // ← GANTI JUDUL LAGU
+    artist: "Honne",                   // ← GANTI NAMA ARTIS
     src:    "assets/music/song1.mp3",    //   (nama file mp3 — jangan diubah kecuali nama filenya beda)
     cover:  "assets/music/song1.jpeg",   //   (nama file cover — jangan diubah kecuali nama filenya beda)
     startTime: 0,                           // ← MULAI DARI DETIK KE BERAPA
@@ -46,14 +46,9 @@ const MUSIC_TRACKS = [
    Nama file harus:  img1.jpeg  img2.jpeg  … img8.jpeg
    Ganti caption (keterangan foto) di setiap baris.               */
 const GALLERY_PHOTOS = [
-  { file: "img1.jpeg", caption: "ngl one smile from you and my whole day just gets so much better." },  // ← GANTI CAPTION
-  { file: "img2.jpeg", caption: "you're literally the reason my heart feels this full, no cap." },
-  { file: "img3.jpeg", caption: "every single sec with you is hands down my fave." },
-  { file: "img4.jpeg", caption: "some people search their whole life for happiness, i just found it in you, fr." },
-  { file: "img5.jpeg", caption: "you turned my whole ordinary life into something this beautiful, idk how." },
-  { file: "img6.jpeg", caption: "my heart genuinely feels safest whenever it's with you." },
-  { file: "img7.jpeg", caption: "if i could relive literally any moment, i'd pick us every single time." },
-  { file: "img8.jpeg", caption: "still my favorite person, like, always and forever." },
+  { file: "img1.jpeg", caption: "Satu senyum dari kamu aja udah bisa bikin hari aku jadi bagus." },  // ← GANTI CAPTION
+  { file: "img2.jpeg", caption: "Kamu itu alasan kenapa hati aku selalu ngerasa penuh." },
+
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -62,11 +57,10 @@ const GALLERY_PHOTOS = [
    Setiap string adalah satu paragraf.
    Bisa ditambah atau dikurangi paragrafnya.                       */
 const LETTER_PARAGRAPHS = [
-"hai buyy, happy birthday yaa. 🤍 dulu aku kenal kamu sebagai yanti di umur 27 tahun, dan sekarang ga kerasa kamu udah masuk umur 28. hihihi. sebentar lagi aku bakal kenal versi baru dari kamu, versi yang lebih dewasa, lebih kuat, dan pastinya lebih hebat lagi. i'm really happy to see you growing this far.",
-"aku harap di umur yang sekarang ini kamu bisa jadi seseorang yang selalu kamu banggakan. seseorang yang terus berkembang, terus belajar, dan terus ngelakuin hal-hal baik. i know you, i hear you, and i see every little progress you make. jadi jangan pernah ragu sama diri sendiri ya, because good things will always follow good people.",
-"aku juga pengen bilang, nanti suatu saat jadilah seseorang yang bisa kamu ceritain dengan bangga ke anak-anak kamu nanti. seseorang yang ga pernah nyerah sama hidup, yang selalu berani bangkit, dan yang terus berjuang buat semua mimpi-mimpinya. semoga semua doa, harapan, dan usaha kamu pelan-pelan dikabulin sama Allah. aamiin.",
-"dan buat kamu, aku janji bakal terus berubah jadi versi yang lebih baik dari diriku yang sekarang. pelan-pelan, tapi pasti. thank you udah jadi salah satu alasan aku buat terus berkembang. i'm so happy and so lucky to know you. once again, happy birthday ya buyy. i love you so much. ❤️"
-
+  "happy birthday sayangggkuu!!! happy level up. 🤍 semoga di umur yang baru ini kamu jadi pribadi yang makin baik dari sebelumnya, selalu dikasih umur yang panjang, sehat fisik maupun mental, rezekinya makin lancar, semua urusannya dipermudah, dan semoga Allah selalu nambahin rasa sabar di setiap langkah kamu. aamiin. aku juga berharap semua impian yang lagi kamu perjuangin pelan-pelan bisa jadi kenyataan.",
+  "semangat terus ya sayang buat ngejar masa depan yang kamu impiin. kalau hari ini gagal, besok kita coba lagi. jangan pernah putus asa sama usaha kamu sendiri, karena aku yakin kamu bisa sampai di titik yang kamu mau. selalu percaya sama diri kamu sendiri ya, karena aku bakal selalu percaya sama kamu dan bangga sama setiap proses yang kamu lewatin.",
+  "aku juga mau bilang makasih banyak ya. makasih karena walaupun kita dipisahin jarak dan kamu sering sibuk, kamu tetep selalu nyempetin waktu buat aku. kamu selalu bikin aku ngerasa ditemenin dan ga pernah ngerasa sendirian. aku bakal selalu ada di belakang kamu, selalu doain kamu, support kamu, dan jadi orang yang paling bangga ngeliat kamu terus berkembang. jangan lupain aku ya di setiap perjalanan kamu. 🤍",
+  "sayang, di sana jaga diri baik-baik yaa. fokus sama tujuan kamu, jangan terlalu dengerin omongan orang yang ga bikin kamu berkembang. istirahat yang cukup, jangan terlalu maksa diri kalau udah capek. pokoknya setiap hari doa aku isinya selalu hal-hal baik buat kamu. semoga kamu hidup lebih lama, selalu bahagia, dan semua langkahmu dijaga sama Allah. sekali lagi, happy birthday abyku, sayangku, semestakuu. i love you always. 🤍🌏",
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -79,27 +73,27 @@ const LETTER_PARAGRAPHS = [
 const MEMORIES = [
   {
     depth: "2m",
-    year:  "Chapter One",
-    title: "where it all started",
-    text:  "that exact moment when everything just clicked, dan tiba-tiba semuanya mulai make so much sense.",
+    year:  "Bab Satu",
+    title: "Awal Mula Semuanya",
+    text:  "Momen di mana semuanya tiba-tiba klik dan jadi masuk akal.",
   },
   {
     depth: "8m",
-    year:  "Chapter Two",
-    title: "the quiet days",
-    text:  "literally cuma kamu, aku, and those lil simple moments yang ternyata ended up meaning everything.",
+    year:  "Bab Dua",
+    title: "Hari-Hari yang Tenang",
+    text:  "Cuma kamu, aku, dan momen sederhana yang ternyata artinya segalanya.",
   },
   {
     depth: "16m",
-    year:  "Chapter Three",
-    title: "through the storms",
-    text:  "we've had our rough patches fr, ada badai dan chaos juga, but somehow kita selalu find our way back to each other.",
+    year:  "Bab Tiga",
+    title: "Ngelewatin Badai",
+    text:  "Kita pernah ngalamin hari-hari susah, tapi jujur, kita selalu nemu jalan buat balik lagi.",
   },
   {
     depth: "24m",
-    year:  "Chapter Four",
-    title: "finding the light",
-    text:  "you're genuinely the brightest part of my whole journey, yang selalu bikin everything feels a little lighter even when things get heavy.",
+    year:  "Bab Empat",
+    title: "Nemuin Cahaya",
+    text:  "Kamu literally bagian paling terang di perjalanan aku, bahkan di air yang paling dalam sekalipun.",
   },
 ];
 
@@ -109,12 +103,12 @@ const MEMORIES = [
    icon: wave | shell | star | compass | anchor | heart
    text: isi ucapannya                                            */
 const WISHES = [
-  { icon: "wave",    text: "may this year give you all the calm of the ocean, dan sedalam itu juga hati kamu yang selalu penuh dengan kindness, fr." },
-  { icon: "shell",   text: "hope your days stay this bright, kayak sun yang mantul di atas water, and your nights tetap peaceful seperti tide yang pelan-pelan balik ke laut." },
-  { icon: "star",    text: "may every lil wish kamu pelan-pelan come true, exactly when you need it the most, no cap." },
-  { icon: "compass", text: "wherever this year takes you, i hope kamu selalu find your way back to the people who genuinely care and adore you." },
-  { icon: "anchor",  text: "stay grounded, stay grateful, and tbh tetap jadi kamu yang sekarang — beautiful in your own way, always." },
-  { icon: "heart",   text: "happy birthday istg — cheers buat another year penuh memories yang bakal selalu worth keeping." },
+  { icon: "wave",    text: "Semoga tahun ini bawa ketenangan kayak laut dan sedalam kebaikan hati kamu." },
+  { icon: "shell",   text: "Semoga hari-hari kamu secerah matahari di atas air, dan malemnya setenang ombak yang lagi surut." },
+  { icon: "star",    text: "Semoga setiap harapan kecil kamu dateng tepat pas kamu lagi butuh banget." },
+  { icon: "compass", text: "Ke mana pun tahun ini bawa kamu pergi, semoga kamu selalu nemu jalan balik ke orang-orang yang sayang sama kamu." },
+  { icon: "anchor",  text: "Tetap membumi, tetap bersyukur, dan jujur aja, tetap secantik ini apa adanya." },
+  { icon: "heart",   text: "Happy birthday — cheers buat kenangan setahun lagi yang bener-bener layak dikenang." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -127,8 +121,8 @@ const WISHES = [
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    Nomor WA untuk membalas pesan setelah lilin ditiup.
    Gunakan format internasional tanpa tanda + (contoh: 62812...) */
-const WHATSAPP_NUMBER = "6281545140472";   // ← GANTI NOMOR WA YANG ORDER
-const WHATSAPP_MESSAGE = "heyy i just opened the bottle, tysm for making my day so much better! ✨"; // ← GANTI PESAN OTOMATIS
+const WHATSAPP_NUMBER = "6281913083213";   // ← GANTI NOMOR WA YANG ORDER
+const WHATSAPP_MESSAGE = "Hai, aku baru aja buka botolnya. Makasih banyak udah bikin hari aku jadi spesial! ✨"; // ← GANTI PESAN OTOMATIS
 
 window.OCEAN_SETTINGS = {
     recipientName:    String(RECIPIENT_NAME),
