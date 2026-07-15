@@ -8,7 +8,7 @@
   height: 3px;
   width: 0%;
   background: linear-gradient(90deg, var(--c-bio-cyan), var(--c-bio-gold));
-  box-shadow: 0 0 12px rgba(62, 198, 224, 0.5);
+  box-shadow: 0 0 12px rgba(224, 62, 198, 0.5);
   z-index: calc(var(--z-nav) + 1);
   transition: width 0.1s linear;
 }

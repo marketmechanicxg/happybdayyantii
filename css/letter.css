@@ -29,7 +29,7 @@
   position: absolute;
   inset: -20%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(62, 198, 224, 0.22), transparent 70%);
+  background: radial-gradient(circle, rgba(224, 62, 198, 0.22), transparent 70%);
   filter: blur(20px);
   animation: bottleGlowPulse 3.6s var(--ease-in-out) infinite;
   pointer-events: none;
@@ -44,7 +44,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  filter: drop-shadow(0 10px 35px rgba(62,198,224,0.25));
+  filter: drop-shadow(0 10px 35px rgba(224,62,198,0.25));
   animation: bottleBob 4.5s var(--ease-in-out) infinite;
   transition: filter 0.4s var(--ease-out);
 }
@@ -56,7 +56,7 @@
 
 .letter__bottle-stage:hover .bottle,
 .letter__bottle-stage:focus-visible .bottle {
-  filter: drop-shadow(0 16px 48px rgba(62,198,224,0.5));
+  filter: drop-shadow(0 16px 48px rgba(224,62,198,0.5));
 }
 .letter__bottle-stage:focus-visible { outline: none; }
 
@@ -92,7 +92,7 @@
 .letter__panel {
   width: 100%;
   margin-top: var(--sp-6);
-  background: linear-gradient(160deg, rgba(244,249,255,0.05), var(--c-panel));
+  background: linear-gradient(160deg, rgba(255,244,249,0.05), var(--c-panel));
   border: 1px solid var(--c-panel-border);
   border-radius: var(--radius-lg);
   padding: var(--sp-6) var(--sp-6);

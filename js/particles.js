@@ -82,16 +82,16 @@
           ctx.arc(x, p.y, p.r, 0, Math.PI * 2);
           const grad = ctx.createRadialGradient(x - p.r * 0.3, p.y - p.r * 0.3, 0, x, p.y, p.r);
           grad.addColorStop(0, `rgba(255,255,255,${p.alpha})`);
-          grad.addColorStop(0.7, `rgba(143,227,240,${p.alpha * 0.35})`);
-          grad.addColorStop(1, 'rgba(143,227,240,0)');
+          grad.addColorStop(0.7, `rgba(240,143,227,${p.alpha * 0.35})`);
+          grad.addColorStop(1, 'rgba(240,143,227,0)');
           ctx.fillStyle = grad;
           ctx.fill();
           ctx.lineWidth = 0.6;
-          ctx.strokeStyle = `rgba(244,249,255,${p.alpha * 0.4})`;
+          ctx.strokeStyle = `rgba(255,244,249,${p.alpha * 0.4})`;
           ctx.stroke();
         } else {
           ctx.arc(x, p.y, p.r, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(143,227,240,${p.alpha})`;
+          ctx.fillStyle = `rgba(240,143,227,${p.alpha})`;
           ctx.fill();
         }
       }

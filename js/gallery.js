@@ -14,12 +14,12 @@
   let activeIndex = 0;
 
   const PLATE_GRADIENTS = [
-    'linear-gradient(155deg, rgba(62,198,224,0.22), rgba(4,28,50,0.92))',
-    'linear-gradient(155deg, rgba(255,215,106,0.16), rgba(6,18,34,0.94))',
-    'linear-gradient(155deg, rgba(143,227,240,0.18), rgba(8,16,38,0.92))',
-    'linear-gradient(155deg, rgba(255,138,122,0.12), rgba(4,15,28,0.94))',
-    'linear-gradient(155deg, rgba(62,198,224,0.14), rgba(255,215,106,0.07), rgba(4,16,30,0.94))',
-    'linear-gradient(155deg, rgba(143,227,240,0.1), rgba(2,10,20,0.95))'
+    'linear-gradient(155deg, rgba(224,62,198,0.22), rgba(50,4,28,0.92))',
+    'linear-gradient(155deg, rgba(255,215,106,0.16), rgba(34,6,18,0.94))',
+    'linear-gradient(155deg, rgba(240,143,227,0.18), rgba(38,8,16,0.92))',
+    'linear-gradient(155deg, rgba(255,138,122,0.12), rgba(28,4,15,0.94))',
+    'linear-gradient(155deg, rgba(224,62,198,0.14), rgba(255,215,106,0.07), rgba(30,4,16,0.94))',
+    'linear-gradient(155deg, rgba(240,143,227,0.1), rgba(20,2,10,0.95))'
   ];
 
   const PLACEHOLDER_SVG = `
@@ -71,7 +71,7 @@
   function loadData() {
     const photos = SETTINGS.galleryPhotos || [];
     if (!photos.length) {
-      return [1,2].map((n) => ({
+      return [1,2,3,4,5,6,7,8].map((n) => ({
         id: `g${n}`,
         caption: 'Add a caption for this memory',
         src: null

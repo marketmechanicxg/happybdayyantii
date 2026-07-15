@@ -5,34 +5,34 @@
 
 :root {
   /* ---- Color: depth gradient from surface to abyss ---- */
-  --c-surface: #0c2f4f;       /* near-surface blue */
-  --c-mid: #04203d;           /* mid ocean */
-  --c-deep: #061528;          /* deep ocean */
-  --c-abyss: #020c1a;         /* abyssal black-navy */
+  --c-surface: #4f0c2f;       /* near-surface pink */
+  --c-mid: #3d0420;           /* mid ocean */
+  --c-deep: #280615;          /* deep ocean */
+  --c-abyss: #1a020c;         /* abyssal black-rose */
 
-  --c-bio-cyan: #3ec6e0;      /* bioluminescent cyan accent */
-  --c-bio-cyan-soft: #8fe3f0;
+  --c-bio-cyan: #e03ec6;      /* bioluminescent pink accent */
+  --c-bio-cyan-soft: #f08fe3;
   --c-bio-gold: #ffd76a;      /* warm light-ray / sun-shaft accent */
   --c-bio-gold-soft: #ffe9a8;
   --c-coral: #ff8a7a;         /* rare warm accent for emphasis */
 
-  --c-foam: #f4f9ff;          /* primary text on dark */
-  --c-foam-dim: rgba(244, 249, 255, 0.72);
-  --c-foam-faint: rgba(244, 249, 255, 0.45);
-  --c-line: rgba(244, 249, 255, 0.12);
-  --c-line-strong: rgba(244, 249, 255, 0.22);
+  --c-foam: #fff4f9;          /* primary text on dark */
+  --c-foam-dim: rgba(255, 244, 249, 0.72);
+  --c-foam-faint: rgba(255, 244, 249, 0.45);
+  --c-line: rgba(255, 244, 249, 0.12);
+  --c-line-strong: rgba(255, 244, 249, 0.22);
 
   /* ---- Glass / panel surfaces ---- */
-  --c-panel: rgba(13, 37, 61, 0.46);
-  --c-panel-strong: rgba(8, 26, 44, 0.82);
-  --c-panel-border: rgba(143, 227, 240, 0.16);
-  --c-panel-border-hover: rgba(143, 227, 240, 0.4);
+  --c-panel: rgba(61, 13, 37, 0.46);
+  --c-panel-strong: rgba(44, 8, 26, 0.82);
+  --c-panel-border: rgba(240, 143, 227, 0.16);
+  --c-panel-border-hover: rgba(240, 143, 227, 0.4);
   --panel-blur: blur(20px) saturate(150%);
 
   /* ---- Seam dividers: translucent so they blend at any scroll position ---- */
-  --c-seam-mid: rgba(8, 30, 52, 0.62);
-  --c-seam-deep: rgba(5, 17, 30, 0.68);
-  --c-seam-abyss: rgba(2, 9, 18, 0.74);
+  --c-seam-mid: rgba(52, 8, 30, 0.62);
+  --c-seam-deep: rgba(30, 5, 17, 0.68);
+  --c-seam-abyss: rgba(18, 2, 9, 0.74);
 
   /* ---- Typography ---- */
   --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
@@ -75,12 +75,12 @@
   --radius-lg: 28px;
   --radius-pill: 999px;
 
-  --shadow-glow-cyan: 0 0 40px rgba(62, 198, 224, 0.25);
-  --shadow-glow-cyan-lg: 0 0 60px rgba(62, 198, 224, 0.38);
+  --shadow-glow-cyan: 0 0 40px rgba(224, 62, 198, 0.25);
+  --shadow-glow-cyan-lg: 0 0 60px rgba(224, 62, 198, 0.38);
   --shadow-glow-gold: 0 0 50px rgba(255, 215, 106, 0.2);
   --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.18), 0 1px 1px rgba(0, 0, 0, 0.12);
-  --shadow-card-hover: 0 22px 48px rgba(0, 0, 0, 0.4), 0 0 32px rgba(62, 198, 224, 0.14);
-  --shadow-panel: 0 24px 64px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(244, 249, 255, 0.06) inset;
+  --shadow-card-hover: 0 22px 48px rgba(0, 0, 0, 0.4), 0 0 32px rgba(224, 62, 198, 0.14);
+  --shadow-panel: 0 24px 64px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 244, 249, 0.06) inset;
   --shadow-float: 0 12px 32px rgba(0, 0, 0, 0.35);
 
   /* ---- Motion ---- */

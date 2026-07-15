@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Happy Birthday — Surat Dari Kedalaman</title>
-<meta name="description" content="Sebuah persembahan ulang tahun yang beneran terbawa arus, khusus buat kamu.">
+<title>Happy Birthday — A Letter From the Deep</title>
+<meta name="description" content="A little birthday tribute, washed up just for you.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/hero.css">
 <link rel="stylesheet" href="css/memories.css">
+<link rel="stylesheet" href="css/gallery.css">
 <link rel="stylesheet" href="css/letter.css">
 <link rel="stylesheet" href="css/wishes.css">
 <link rel="stylesheet" href="css/ending.css">
@@ -64,28 +65,28 @@
         <path d="M9 11.5l1.6 1.6L15 9" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </div>
-    <span class="eyebrow pin-lock__eyebrow">Cuma buat kamu, beneran</span>
-    <h1 class="pin-lock__title">Masukin Kode Rahasianya</h1>
-    <p class="pin-lock__subtitle">Ada sesuatu yang udah nunggu tepat di balik permukaan, khusus buat kamu.</p>
+    <span class="eyebrow pin-lock__eyebrow">For your eyes only</span>
+    <h1 class="pin-lock__title">Enter Your Secret Code</h1>
+    <p class="pin-lock__subtitle">Something has been waiting just past the surface, only for you.</p>
 
     <form class="pin-lock__form" id="pinForm" autocomplete="off" novalidate>
       <div class="pin-lock__digits" id="pinDigits">
         <input type="text" inputmode="numeric" pattern="[0-9]*" id="pinHiddenInput" class="pin-lock__hidden-input" autocomplete="one-time-code" aria-label="Secret code">
       </div>
       <button type="submit" class="pin-lock__submit">
-        <span>Buka</span>
+        <span>Unlock it</span>
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
     </form>
 
     <p class="pin-lock__error" id="pinError" role="alert" aria-live="assertive">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.7 17a2 2 0 001.7 3h15.2a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      PIN-nya salah, coba lagi sayang.
+      Wrong PIN, try again babe.
     </p>
   </div>
 </div>
 
-<a href="#hero" class="skip-link">Langsung ke konten</a>
+<a href="#hero" class="skip-link">Skip to content</a>
 
 <!-- ============================= LOADING SCREEN ============================= -->
 <div class="loader" role="status" aria-live="polite">
@@ -94,7 +95,7 @@
     <path d="M12 7v10M9 9l3 3-3 3M15 9l-3 3 3 3" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <div class="loader__bar-track"><div class="loader__bar-fill"></div></div>
-  <p class="loader__label"><span>Lagi nyiapin kedalaman buat kamu</span><span class="loader__pct">0%</span></p>
+  <p class="loader__label"><span>Charting the depths for you</span><span class="loader__pct">0%</span></p>
 </div>
 
 <!-- ============================= SCROLL PROGRESS ============================= -->
@@ -117,21 +118,21 @@
     <div class="wave-layer wave-layer--1">
       <div class="wave-layer__scroll">
         <svg viewBox="0 0 2880 220" preserveAspectRatio="none">
-          <path fill="rgba(143,227,240,0.16)" d="M0,110 C240,150 480,70 720,110 C960,150 1200,70 1440,110 C1680,150 1920,70 2160,110 C2400,150 2640,70 2880,110 L2880,220 L0,220 Z"/>
+          <path fill="rgba(240,143,227,0.16)" d="M0,110 C240,150 480,70 720,110 C960,150 1200,70 1440,110 C1680,150 1920,70 2160,110 C2400,150 2640,70 2880,110 L2880,220 L0,220 Z"/>
         </svg>
       </div>
     </div>
     <div class="wave-layer wave-layer--2">
       <div class="wave-layer__scroll">
         <svg viewBox="0 0 2880 220" preserveAspectRatio="none">
-          <path fill="rgba(62,198,224,0.22)" d="M0,130 C240,180 480,80 720,130 C960,180 1200,80 1440,130 C1680,180 1920,80 2160,130 C2400,180 2640,80 2880,130 L2880,220 L0,220 Z"/>
+          <path fill="rgba(224,62,198,0.22)" d="M0,130 C240,180 480,80 720,130 C960,180 1200,80 1440,130 C1680,180 1920,80 2160,130 C2400,180 2640,80 2880,130 L2880,220 L0,220 Z"/>
         </svg>
       </div>
     </div>
     <div class="wave-layer wave-layer--3">
       <div class="wave-layer__scroll">
         <svg viewBox="0 0 2880 220" preserveAspectRatio="none">
-          <path fill="rgba(244,249,255,0.14)" stroke="rgba(143,227,240,0.35)" stroke-width="1.5" d="M0,150 C120,190 240,110 360,150 C480,190 600,110 720,150 C840,190 960,110 1080,150 C1200,190 1320,110 1440,150 C1560,190 1680,110 1800,150 C1920,190 2040,110 2160,150 C2280,190 2400,110 2520,150 C2640,190 2760,110 2880,150 L2880,220 L0,220 Z"/>
+          <path fill="rgba(255,244,249,0.14)" stroke="rgba(240,143,227,0.35)" stroke-width="1.5" d="M0,150 C120,190 240,110 360,150 C480,190 600,110 720,150 C840,190 960,110 1080,150 C1200,190 1320,110 1440,150 C1560,190 1680,110 1800,150 C1920,190 2040,110 2160,150 C2280,190 2400,110 2520,150 C2640,190 2760,110 2880,150 L2880,220 L0,220 Z"/>
         </svg>
       </div>
     </div>
@@ -158,16 +159,17 @@
         <path d="M2 16c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2" stroke-linecap="round" stroke-linejoin="round"/>
         <circle cx="12" cy="8" r="3.2"/>
       </svg>
-      <span>Ariff Birthday</span>
+      <span>Nabila's Birthday</span>
     </a>
     <nav class="navbar__links" aria-label="Primary">
-      <a href="#hero" class="navbar__link is-active" data-scroll-to="hero">Permukaan</a>
-      <a href="#memories" class="navbar__link" data-scroll-to="memories">Kenangan Kita</a>
-      <a href="#letter" class="navbar__link" data-scroll-to="letter">Suratnya</a>
-      <a href="#wishes" class="navbar__link" data-scroll-to="wishes">Ucapan</a>
+      <a href="#hero" class="navbar__link is-active" data-scroll-to="hero">Surface</a>
+      <a href="#memories" class="navbar__link" data-scroll-to="memories">Our Memories</a>
+      <a href="#gallery" class="navbar__link" data-scroll-to="gallery">Gallery</a>
+      <a href="#letter" class="navbar__link" data-scroll-to="letter">The Letter</a>
+      <a href="#wishes" class="navbar__link" data-scroll-to="wishes">Wishes</a>
     </nav>
     <div class="navbar__actions">
-      <button class="navbar__menu-btn" aria-label="Buka menu" aria-expanded="false">
+      <button class="navbar__menu-btn" aria-label="Open menu" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
       </button>
     </div>
@@ -175,14 +177,15 @@
 </header>
 
 <!-- ============================= MOBILE NAV DRAWER ============================= -->
-<div class="nav-drawer" role="dialog" aria-modal="true" aria-label="Navigasi situs">
-  <button class="nav-drawer__close" aria-label="Tutup menu">
+<div class="nav-drawer" role="dialog" aria-modal="true" aria-label="Site navigation">
+  <button class="nav-drawer__close" aria-label="Close menu">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
   </button>
-  <a href="#hero" class="nav-drawer__link is-active" data-scroll-to="hero">Permukaan</a>
-  <a href="#memories" class="nav-drawer__link" data-scroll-to="memories">Kenangan Kita</a>
-  <a href="#letter" class="nav-drawer__link" data-scroll-to="letter">Suratnya</a>
-  <a href="#wishes" class="nav-drawer__link" data-scroll-to="wishes">Ucapan</a>
+  <a href="#hero" class="nav-drawer__link is-active" data-scroll-to="hero">Surface</a>
+  <a href="#memories" class="nav-drawer__link" data-scroll-to="memories">Our Memories</a>
+  <a href="#gallery" class="nav-drawer__link" data-scroll-to="gallery">Gallery</a>
+  <a href="#letter" class="nav-drawer__link" data-scroll-to="letter">The Letter</a>
+  <a href="#wishes" class="nav-drawer__link" data-scroll-to="wishes">Wishes</a>
 </div>
 
 <main>
@@ -192,27 +195,26 @@
     <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
     <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
     <div class="hero__content">
-      <span class="eyebrow hero__eyebrow">Sebuah pesan yang terbawa arus, untuk kamu</span>
+      <span class="eyebrow hero__eyebrow">A message carried in on the tide, for you</span>
       <h1 class="hero__title">
         <span class="line"><span>Happy Birthday,</span></span>
-        <span class="line"><span><em>Orang Favoritku</em></span></span>
+        <span class="line"><span><em>My Favorite Person</em></span></span>
       </h1>
       <p class="hero__subtitle">
-        Di suatu tempat di balik ombak, ada surat yang udah nunggu hari ini.
-        Scroll ke bawah — airnya lagi pasang, dan bawa sesuatu yang spesial buat
-        <span class="hero__name">kamu</span>.
+        Somewhere past the breakers, ada a letter yang udah lama waiting for this day. Scroll down, the tide is coming in, dan ternyata dia bawa something special just for you.
+        <span class="hero__name">you</span>.
       </p>
       <div class="hero__actions">
         <a href="#memories" class="cta-btn" data-scroll-to="memories">
-          <span>Mulai Menyelam</span>
+          <span>Begin the Descent</span>
           <svg class="cta-btn__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="#letter" class="cta-btn cta-btn--ghost" data-scroll-to="letter">Langsung ke Suratnya</a>
+        <a href="#letter" class="cta-btn cta-btn--ghost" data-scroll-to="letter">Jump Straight to the Letter</a>
       </div>
     </div>
     <div class="hero__scroll-cue">
       <div class="mouse"></div>
-      <span>Scroll buat mulai menyelam</span>
+      <span>Scroll to dive in</span>
     </div>
   </section>
 
@@ -227,9 +229,9 @@
   <section id="memories" class="section memories">
     <div class="section__inner">
       <div class="section-header reveal">
-        <span class="eyebrow">Penyelaman dimulai, kamu siap</span>
-        <h2 class="section-title">Bab-bab dari <em>cerita kita</em></h2>
-        <p class="section-lede">Setiap hubungan punya arusnya sendiri — masa-masa tenang, gelombang tiba-tiba, dan momen sunyi di antaranya. Ini beberapa yang layak diangkat ke permukaan lagi.</p>
+        <span class="eyebrow">The descent begins, are you ready</span>
+        <h2 class="section-title">Chapters from <em>our story</em></h2>
+        <p class="section-lede">Every relationship has its own currents, ada hari yang calm, ada momen yang penuh waves, dan ada little moments yang mungkin hampir terlupakan. Here are a few memories yang deserve to come back to the surface.</p>
       </div>
 
       <div class="memories__list">
@@ -238,6 +240,20 @@
     </div>
   </section>
 
+  <!-- ============================= GALLERY ============================= -->
+  <section id="gallery" class="section gallery">
+    <div class="section__inner">
+      <div class="section-header section-header--center reveal">
+        <span class="eyebrow">Washed ashore, just for you</span>
+        <h2 class="section-title">A few of <em>my favorite shots of you</em></h2>
+        <p class="section-lede">Tap any photo to look closer.</p>
+      </div>
+
+      <div class="gallery__grid">
+        <!-- gallery__item tiles injected by js/gallery.js from config/settings.js -->
+      </div>
+    </div>
+  </section>
 
   <div class="seam seam--deep" aria-hidden="true">
     <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
@@ -251,29 +267,29 @@
     <div class="section__inner section__inner--narrow">
       <div class="letter__inner">
         <div class="section-header section-header--center reveal">
-          <span class="eyebrow">Sebuah botol, akhirnya sampai ke tepian buat kamu</span>
-          <h2 class="section-title">Dibuka kalau <em>ketemu</em></h2>
+          <span class="eyebrow">A bottle, finally ashore for you</span>
+          <h2 class="section-title">Open when <em>found</em></h2>
         </div>
 
-        <div class="letter__bottle-stage reveal reveal--scale" tabindex="0" role="button" aria-label="Buka suratnya">
+        <div class="letter__bottle-stage reveal reveal--scale" tabindex="0" role="button" aria-label="Open the letter">
           <div class="letter__bottle-glow" aria-hidden="true"></div>
           <svg class="bottle" viewBox="0 0 120 160" fill="none">
             <path d="M50 10h20v18c10 6 16 18 16 32v68a14 14 0 01-14 14H48a14 14 0 01-14-14V60c0-14 6-26 16-32z"
-                  fill="rgba(143,227,240,0.14)" stroke="#8fe3f0" stroke-width="2"/>
-            <rect x="48" y="6" width="24" height="14" rx="3" fill="#04203d" stroke="#8fe3f0" stroke-width="1.5"/>
+                  fill="rgba(240,143,227,0.14)" stroke="#f08fe3" stroke-width="2"/>
+            <rect x="48" y="6" width="24" height="14" rx="3" fill="#3d0420" stroke="#f08fe3" stroke-width="1.5"/>
             <path d="M40 90c4 6 36 6 40 0v40a8 8 0 01-8 8H48a8 8 0 01-8-8z" fill="rgba(255,215,106,0.5)"/>
-            <rect x="44" y="74" width="32" height="10" rx="2" fill="#f4f9ff" opacity="0.85" transform="rotate(-4 60 79)"/>
+            <rect x="44" y="74" width="32" height="10" rx="2" fill="#fff4f9" opacity="0.85" transform="rotate(-4 60 79)"/>
           </svg>
           <p class="letter__hint">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Ketuk botolnya buat dibuka
+            Tap the bottle to open it
           </p>
         </div>
 
         <div class="letter__panel">
-          <p class="letter__salutation">Buat kamu,</p>
+          <p class="letter__salutation">Dear you,</p>
           <div class="letter__body"><!-- typewritten in by js/letter.js --></div>
-          <p class="letter__signature">— dengan banyak cinta, selalu</p>
+          <p class="letter__signature">— with so much love, always</p>
         </div>
       </div>
     </div>
@@ -283,8 +299,8 @@
   <section id="wishes" class="section wishes">
     <div class="section__inner">
       <div class="section-header section-header--center reveal">
-        <span class="eyebrow">Terkirim lewat arus, buat kamu</span>
-        <h2 class="section-title">Ucapan untuk <em>tahun yang akan datang</em></h2>
+        <span class="eyebrow">Sent with the current, for you</span>
+        <h2 class="section-title">Wishes for <em>the year ahead</em></h2>
       </div>
 
       <div class="wishes__grid">
@@ -303,33 +319,34 @@
   <!-- ============================= ENDING ============================= -->
   <section id="ending" class="section ending">
     <div class="ending__inner reveal">
-      <span class="eyebrow">Naik ke permukaan, hampir sampai</span>
-      <h2 class="ending__title">Happy Birthday, <em>Ariff</em>.</h2>
+      <span class="eyebrow">Resurfacing, almost there</span>
+      <h2 class="ending__title">Happy Birthday, <em>truly</em>.</h2>
       <p class="ending__message">
-        Makasih ya udah biarin aku bikin sedikit kehebohan buat kamu hari ini.
-        Semoga tahun depan penuh arus yang baik, cerita yang lebih seru, dan hari-hari
-        yang layak dibotolin terus dikirim ke hilir.
+        Thank you for letting me make a little fuss over you today.
+Makasih udah ngasih aku kesempatan buat bikin hari kamu terasa sedikit lebih special.
+Here's to another year of good tides, cerita-cerita yang lebih indah, dan hari-hari kecil yang mungkin sederhana tapi worth keeping forever.
+Semoga semua momen baik pelan-pelan datang ke kamu, stay warm, and keep shining the way you always do.
       </p>
       <div class="ending__candles" aria-hidden="true">
         <div class="candle"></div><div class="candle"></div><div class="candle"></div><div class="candle"></div><div class="candle"></div>
       </div>
-      <p class="ending__signoff">Buat satu permintaan.</p>
+      <p class="ending__signoff">Make a wish.</p>
       
       <div class="ending__whatsapp" style="opacity: 0; pointer-events: none; transform: translateY(20px);">
         <a href="#" id="whatsapp-reply-btn" target="_blank" class="cta-btn">
           <svg class="cta-btn__icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
           </svg>
-          Kirim balasan
+          Send a reply
         </a>
       </div>
       <div class="ending__replay">
         <button class="cta-btn cta-btn--ghost" data-replay>
-          <span>Balik ke Permukaan</span>
+          <span>Float Back to the Surface</span>
           <svg class="cta-btn__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
       </div>
-      <p class="ending__footer-note">Dibuat dengan penuh cinta · <span data-current-year>2026</span></p>
+      <p class="ending__footer-note">Made with so much care · <span data-current-year>2026</span></p>
     </div>
   </section>
 
@@ -341,13 +358,13 @@
      stacking context, which would otherwise cap the lightbox below
      nav/overlay elements regardless of its own z-index value. -->
 <div class="lightbox" aria-hidden="true">
-  <button class="lightbox__close" aria-label="Tutup">
+  <button class="lightbox__close" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
   </button>
-  <button class="lightbox__nav lightbox__nav--prev" aria-label="Foto sebelumnya">
+  <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
-  <button class="lightbox__nav lightbox__nav--next" aria-label="Foto berikutnya">
+  <button class="lightbox__nav lightbox__nav--next" aria-label="Next photo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
   <div class="lightbox__frame">
@@ -367,6 +384,7 @@
 <script src="js/particles.js"></script>
 <script src="js/smooth-scroll.js"></script>
 <script src="js/navigation.js"></script>
+<script src="js/gallery.js"></script>
 <script src="js/letter.js"></script>
 <script src="js/music-player.js"></script>
 <script src="js/main.js"></script>

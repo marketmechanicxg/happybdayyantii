@@ -120,7 +120,7 @@ html { scrollbar-color: var(--c-bio-cyan) var(--c-abyss); scrollbar-width: thin;
   left: -24px;
   width: 48px;
   height: 48px;
-  background: radial-gradient(circle, rgba(62,198,224,0.4) 0%, transparent 60%);
+  background: radial-gradient(circle, rgba(224,62,198,0.4) 0%, transparent 60%);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
